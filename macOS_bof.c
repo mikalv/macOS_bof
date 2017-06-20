@@ -16,6 +16,7 @@ void echo(const char* arg)
     strcpy(buffer, arg);
 }
 
+// execute the challenge using `$./macOS_bof <test_argument>`
 int main(int argc, char **argv)
 {
     echo(argv[1]);
